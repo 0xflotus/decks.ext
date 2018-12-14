@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Decks search engine",
+  "description": "Adds a search engine that searches decks.de",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "strict_min_version": "55"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Decks",
+      "search_url": "https://www.decks.de/decks/workfloor/search_db.php?such={searchTerms}",
+      "keyword": "decks",
+      "is_default": false,
+      "encoding": "UTF-8"
+    }
+  }
+}
