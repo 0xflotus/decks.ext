@@ -8,4 +8,4 @@ Search Engine Extension for decks.de
 * navigate to the cloned repository and open manifest.json
 
 # Usage
-* type _decks_ and then your <search term> and hit enter
+* type _decks_ and then your *\<search term\>* and hit enter
